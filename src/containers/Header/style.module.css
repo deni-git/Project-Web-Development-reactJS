@@ -1,0 +1,48 @@
+.container-header {
+    background-color: #152A46;
+    padding: 25px 40px 0px 40px;
+}
+.header-banner {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50% 50%;
+  }
+
+.header-banner .item1 {
+    text-align: start;
+    grid-template-rows: 100% 100%;
+}
+
+.header-banner .item1 .title {
+    font-size: 39px;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.header-banner .item1 .subtitle {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+.header-banner .item2 {
+    text-align: center;
+}
+
+.header-banner .item2 img {
+    width: 355px;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-banner .item2 img {
+        width: 250px;
+        height: 100%;
+    }
+  }
+
+
+
+

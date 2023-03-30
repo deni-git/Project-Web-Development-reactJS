@@ -1,0 +1,50 @@
+.container-card-1 {
+    overflow: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+.container-card-2 {
+    overflow: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+.container-card-3 {
+    overflow: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.pagination {
+    text-align: right;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}
+
+.pagination a {
+    color: black;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.pagination span {
+    background-color: #197BFF;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.pagination .active {
+    color: white;
+}
